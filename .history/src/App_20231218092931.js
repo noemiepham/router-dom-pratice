@@ -1,10 +1,9 @@
 import { Routes, BrowserRouter, Route } from "react-router-dom";
 //import Layout from "./components/Layout/Layout";
-import Home from "./pages/Home/Home";
-import Layout from "./pages/Layout/Layout";
-import Contact from "./pages/Contact/Contact";
-import About from "./pages/About/About";
-
+import Home from "./components/Home/Home";
+import Layout from "./components/Layout/Layout";
+import Tarif from "./components/Tarif/Tarif";
+//import Layout from "./components/Layout/Layout";
 function App() {
   return (
     <div className="App">
@@ -12,8 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="tarif" element={<Tarif />} />
           </Route>
         </Routes>
       </BrowserRouter>

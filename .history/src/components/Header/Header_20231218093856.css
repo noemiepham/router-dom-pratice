@@ -1,0 +1,17 @@
+.header {
+     height: 100px;
+     width: 100%;
+     background-color: blue;
+     color: blanchedalmond;
+}
+
+.header nav ul {
+     display: flex;
+}
+
+.header nav ul li {
+     text-decoration: none;
+     color: white;
+     margin-right: 20px;
+     border: 1px solid black;
+}
